@@ -1,5 +1,34 @@
+### Name: Christian D'Albano
+### Course: Software Development I
+### CRN: 202510-CEN-3024C-15339
+
 ## Java Bonsai
-A Java Application that uses a Bonsai class to print a Bonsai in the terminal when summoned.
+A Java Application that uses a Bonsai class to print a Bonsai in the terminal when summoned. This program uses OOP practices and nested loops for printing the trees core elements :). 
+This being said, the program utilizes a Bonsai constructor and its properties and methods to generate a bonsai in the terminal. 
+
+Example of one of the nested loops (To print leaves):
+
+```
+public void printLeaves() {
+        int maxWidth = heightOfLeaves * 2 - 1;
+
+        for(int i = 0; i < heightOfLeaves; i++) {
+            int currentWidth = 2 * i + 1;
+            int spaces = (maxWidth - currentWidth) / 2;
+
+            for (int j = 0; j < spaces; j++) {
+                System.out.print(" ");
+            }
+
+            for (int k = 0; k < trunkWidth; k++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+
+```
 
 ### Core methods
 
