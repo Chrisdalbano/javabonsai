@@ -57,6 +57,6 @@ public class Bonsai {
         System.out.println("Trunk width: " + trunkWidth);
         System.out.println("Root length: " + rootLength);
 
-        displayBonsai();
+
     }
 }
